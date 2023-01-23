@@ -1,0 +1,37 @@
+{
+  "name": "pdv-back-end",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Cunha",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@adminjs/express": "^5.1.0",
+    "@adminjs/sequelize": "^3.0.0",
+    "@tiptap/prosemirror-tables": "^1.1.4",
+    "adminjs": "^6.8.1",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "exphbs": "^1.2.0",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "moment": "^2.29.4",
+    "mysql2": "^3.0.1",
+    "nodemailer": "^6.9.0",
+    "nodemailer-express-handlebars": "^6.0.0",
+    "sequelize": "^6.28.0",
+    "tslib": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
